@@ -1,0 +1,70 @@
+body{
+	background-color: yellow;
+}
+p{
+	font-size: 50px;
+	background-color: green;
+}
+.p1{
+	display: inline-block;
+}
+.s1{
+	border: dotted 2px red;
+}
+/*#first{
+	width: 500px;
+	height: 500px;
+	background-color: blue;	
+	border: ridge 20px violet;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: violet;
+	border: border groove20px blue;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+
+}
+#third,#forth{
+	width: 800px;
+	height: 200px;
+	border: ;
+}*/
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 20px;
+	border-left: dotted yellow 20px;
+	border-right: dashed olive 20px;
+	border-bottom: groove blue; 20px;
+	border-top: ridge red 20px;
+	margin: 50px;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: violet;
+	border: groove 20px blue;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+	border-style: dotted dashed;
+	border-color: red orange yellow pink;
+}
+#third, #forth{
+	width: 800px;
+	height: 200px;
+	border: dashed 10px red;
+	margin: 20px;
+}
